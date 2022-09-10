@@ -1,9 +1,14 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from 'react'
+import App from './App'
+import { MemoryRouter } from 'react-router-dom'
+import { renderWithProviders } from './app/helpers/test-utils'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+describe('renders learn react link', () => {
+    it('render App', () => {
+        const { queryAllByAltText } = renderWithProviders(
+            <MemoryRouter>
+                <App />
+            </MemoryRouter>
+        )
+    })
+})
