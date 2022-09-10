@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/Sure05/weather/static/js/main.52b2154c.js",
+    "main.js": "/Sure05/weather/static/js/main.d45341c8.js",
     "static/js/787.13d76ca7.chunk.js": "/Sure05/weather/static/js/787.13d76ca7.chunk.js",
     "index.html": "/Sure05/weather/index.html",
-    "main.52b2154c.js.map": "/Sure05/weather/static/js/main.52b2154c.js.map",
+    "main.d45341c8.js.map": "/Sure05/weather/static/js/main.d45341c8.js.map",
     "787.13d76ca7.chunk.js.map": "/Sure05/weather/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.52b2154c.js"
+    "static/js/main.d45341c8.js"
   ]
 }
